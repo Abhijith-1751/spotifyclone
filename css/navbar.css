@@ -1,0 +1,65 @@
+.Navbar{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  width: 100%;
+  background-color: black;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Navbar span{
+  position: relative;
+  color:white;
+  font-size: 1.5rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  animation: textstyle 2s infinite;
+}
+
+.Navbar img{
+  position: relative;
+  animation: imgglow 5s infinite;
+}
+
+@keyframes textstyle{
+  0%{
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.033);
+    transform: scale3d(20deg,30deg,50deg);
+  }
+  20%{
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.149);
+    transform: scale3d(20deg,30deg,50deg);
+  }
+  40%{
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.334);
+    transform: scale3d(20deg,30deg,50deg);
+  }
+  60%{
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.603);
+    transform: scale3d(20deg,30deg,50deg);
+  }
+  80%{
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.76);
+    transform: scale3d(20deg,30deg,50deg);
+  }
+  100%{
+    text-shadow: 2px 2px 2px white;
+    transform: scale3d(20deg,30deg,50deg);
+  }
+}
+
+@keyframes imgglow{
+  0%{
+    filter: drop-shadow(1px 2px rgba(255, 255, 255, 0.231));
+  }
+
+  50%{
+    filter: drop-shadow(1px 2px rgba(234, 64, 64, 0.685));
+  }
+  100%{
+    filter: drop-shadow(1px 2px rgb(247, 9, 9));
+  }
+
+}

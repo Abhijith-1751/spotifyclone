@@ -1,0 +1,23 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+div {
+  margin: 0px;
+}
+
+.app {
+  position: relative;
+  margin: 0px;
+}
+
+body{
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+html{
+  position: relative;
+  scroll-behavior: smooth;
+}
