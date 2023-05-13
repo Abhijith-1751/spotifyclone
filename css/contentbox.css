@@ -5,9 +5,10 @@
   height: 48rem;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.841);
+  scroll-behavior: smooth;
+  overflow: scroll;
 }
 
-
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 0px;
 }
