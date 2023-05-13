@@ -1,8 +1,7 @@
 .container {
   position: relative;
-  top:6rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   margin: 2rem;
   height: 5rem;
   width: 24rem;
