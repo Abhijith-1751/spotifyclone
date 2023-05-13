@@ -13,10 +13,17 @@
 .container img{
   position: relative;
   display: flex;
-  left:2rem;
+  margin: 1rem;
   height: 2rem;
   width: 2rem;
   border-radius: 50px;
   image-resolution:initial;
-  
+}
+
+
+
+audio{
+  position: relative;
+  background: fixed;
+  opacity: 30%;
 }
