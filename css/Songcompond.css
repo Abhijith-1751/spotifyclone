@@ -7,4 +7,16 @@
   width: 24rem;
   background-color: black;
   border-radius: 20px;
+  align-items: center;
+}
+
+.container img{
+  position: relative;
+  display: flex;
+  left:2rem;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50px;
+  image-resolution:initial;
+  
 }
