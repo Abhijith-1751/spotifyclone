@@ -12,3 +12,12 @@
 ::-webkit-scrollbar {
   width: 0px;
 }
+/* Eliza Ibarra  */
+
+
+@media only screen and(max-width:425px){
+  .content-box{
+    position: relative;
+    height:60rem;
+  }
+}
